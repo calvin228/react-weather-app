@@ -1,0 +1,50 @@
+.card{
+    width: 30%; 
+    margin: 1% auto;
+}
+
+.card:hover{
+    background-color: #f7f4f4;
+}
+.card-text{
+    display: inline-block;
+}
+
+.card-title{
+    font-weight: bold;
+}
+
+.temp-min{
+    font-weight: 700;
+}
+
+@media (max-width: 960px){
+    .card{
+        margin: 5% auto;
+        min-width: 10em;
+        max-width: 12em;
+        display: block;
+    }
+    .card-text{
+        width: 40%; 
+    }
+}
+
+@media (min-width: 960px){
+    .card{
+        width: 10em;
+        max-width: 10em;
+        margin: auto 0.5em;
+        display: inline-block;
+    }
+    .card-text{
+        width: 50%;
+    }
+}
+
+
+
+.weather-icon{
+    width: 70%;
+    margin-bottom: 20%;
+}

@@ -1,0 +1,7 @@
+@media (min-width: 960px) {
+  .forecasts {
+    position: relative;
+    top: 50%;
+    transform: translateY(50%);
+  }
+}
